@@ -25,11 +25,8 @@ if(process.env.NODE_ENV === "production"){
     });
 }
 
-console.log(process.env.MONGOURI);
 
 app.listen(5000, ()=>{
     connectDB();
     console.log("Server satrted at http://localhost:"+ PORT);
 });
-
-//iRs8rAZTlJZLjSPT
